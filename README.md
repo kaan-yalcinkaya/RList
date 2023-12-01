@@ -2,9 +2,8 @@
 RList is a Ruby implementation of the doubly linked list
 
 # Test
-´´´
+```
 require_relative 'list'
-
 list = List.new
 list.copy!(%w[wElCoMe To ThE rLiSt])
 list.copy!(%w[lets fix this])
@@ -31,4 +30,4 @@ numbers = list2.select(&isa(Integer))
 hashes = list2.select(&isa(Hash))
 
 puts strings, arrays, numbers, hashes
-´´´
+```
